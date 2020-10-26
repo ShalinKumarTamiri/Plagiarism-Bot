@@ -1,0 +1,84 @@
+/*selecting body*/
+body{
+    /*Setting background image and font*/
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url("four.jpg");
+}
+
+/*Selecting box class */
+.box{
+    /*Setting width,padding,position translation */
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left:30%;
+    transform : translate(-50%,-50%);
+    background : rgba(0,0,1,0.6);
+    text-align: center;
+    border-radius: 25px;
+}
+
+/*Selecting h1 in box class*/
+.box h1{
+    /*Setting color,font weight and changing text to captilize */
+    color: white;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+/*Selecting input for text ,mail and password  in box class */
+.box input[type="text"] , .box input[type="mail"] , .box input[type="password"] {
+    /*Setting background,color,alignment ,width */
+    border: 0;
+    color: white;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #1c9de7;
+    padding: 14px 10px;
+    width: 200px;
+    /*setting border radius and translate */
+    outline: none;
+    border-radius: 24px;
+    translate: 0.25s;
+}
+
+/*Selecting input for text , mail and password when hover in box class */
+.box input[type="text"]:hover , .box input[type="mail"]:hover , .box input[type="password"]:hover{
+    width: 280px;
+    color: white;
+}
+
+/*Selecting input of type submit in box class */
+.box input[type="submit"]{
+    /*Setting background,color,alignment ,width */
+    color: white;
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid  #f04b46;
+    padding: 14px 40px;
+    outline: none;
+    /*setting border radius and translate and curser to pointer*/
+    border-radius: 24px;
+    translate: 0.01s;
+    cursor: pointer;
+}
+
+/*Selecting input of type submit when hover in box class */
+.box input[type="submit"]:hover {
+    color: white;
+    background: #fa593d;
+}
+/*Selecting a tag in box class */
+.box a{
+    /*Setting color and size to the text */
+    color: white;
+    font-size: large;
+}

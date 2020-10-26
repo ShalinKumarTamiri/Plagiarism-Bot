@@ -1,0 +1,54 @@
+/*Selecting body */
+
+body{
+    /*setting background image */
+    background-image: url("chat2.jpg");
+    color : whitesmoke;
+}
+
+/*selecting heading one */
+h1{
+    /*changing color,font of text and aligning at center*/
+    text-align: center;
+    color : white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*Selecting id chat */
+#chat{
+    display: flex;
+    flex-direction: column;
+}
+
+/*Selecting message class*/
+.message{
+    /*giving border radius ,color and font size */
+    padding : 10px;
+    border-radius: 25px;
+    font-size: 17px;
+    color : rgb(219, 233, 231);
+}
+
+/*Selecting user class */ 
+.user {
+    /*Setting background color ,alignment,color */
+    color: #d9f0fa;
+    background-color: rgba(237, 247, 188,0.5);
+    text-align: center;
+    letter-spacing: 1px;
+    padding-right: 50px;
+    margin-left: 60%;
+}
+
+/*Selecting bot class */ 
+ .bot {
+    /*Setting background color ,alignment,color */
+    background-color: rgb(143,188,143,0.6);
+    text-align : left;
+    letter-spacing: 1px;
+    padding-left : 50px;
+    margin-right: 60%;
+    /*color: rgb(130, 198, 238);*/
+}
+
+

@@ -1,0 +1,142 @@
+
+/*Selecting body */
+body { 
+    /*putting height to whole page and making content to be centered*/
+    height:100% ;
+    align-items : center; 
+    /*Setting background image*/
+    background-image: url("30.jpeg");
+    background-size: cover;
+  } 
+
+
+/*Selecting heading one */
+h1{ 
+    /*Selecting background color and space between letters*/
+    background-color:#3399cc;
+   /* background-color:  rgba(247, 2, 27);*/
+    color : #e8cd61;
+    text-align: center;
+    letter-spacing: 2px; 
+    /*Making text into upper case*/
+    text-transform: uppercase; 
+    font-size: 3em; 
+    overflow: hidden;
+    /*padding to the text*/
+    padding: 50px;
+    }
+    
+/*Selecting heading if the curser is placed on header one */
+h1:hover { 
+    /*changing the background color of heading one */
+    background-color: rgba(0,0,0,0.7);
+    /*Changing font to cursive,size of the text,color to white and making red color shadow to the border */
+    font-family: cursive;
+    font-size: 50px;
+    color: #fff; 
+    box-shadow: 0 0 50px #fa3939;
+    } 
+    
+/*Selecting the info class */    
+.info{
+    /*Setting background color of the info class to black with opacity */
+    background-color: rgba(0,0,0,0.7);
+    height :100%;
+    width: 101%;
+    padding-left : 100px;
+    /* Making text to appear at center , increasse font size and setting font style */
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*Selecting quote class */
+.quote{
+    /*Giving padding to the content , setting the letter spacing and color */
+    padding: 10px;
+    font-size: 200px;
+    letter-spacing: 5px;
+    color : white;
+}
+
+/*selecting infotext class */
+.infotext{
+    /* setting color for the text and aliginig at the center*/
+    text-align : center;
+    padding : 100px;
+    color:#e18a07;
+}
+
+/* Selecting slides class */
+.slides{
+    /*Giving heigth to the slides */
+    height:500px;
+}
+
+#dark{
+    background-color: black;
+    position: fixed;
+    display: block;
+    padding: 5px;
+    right: 0;
+    top: 50px;
+    margin-right: 0;
+    border-radius:  15px 0 0 15px;
+}
+
+/*Selecting conversation class */
+.conversation{
+    /* Setting font size ,weight ,decoration and alignment */
+    margin : 125px;
+    text-decoration: none;
+    text-align:center;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+/* Selecting when curser on a tag */
+a:hover{
+    /* changing color to red */
+    color : red;
+    text-decoration: none;
+}
+
+/*selectng center class */
+.center {
+    /* Setting background color and aligning elements at center */
+    text-align: center;
+    align-items: center;
+    background-color: #5f8294;
+}
+
+/*Selecting about class and aligining text at center */
+.about{
+    text-align : center;
+}
+
+/* selecting i class */
+.i {
+    /*setting height ,width alignment to images */
+    align-items: center;
+    border-radius: 50%;
+    height: 50%;
+    width: 45%;
+    margin-top: 20%;
+}
+
+/*selecting images class*/
+.images{
+    /*aligning content to center and changing color to white */
+    align-items: center;
+    color : white;
+    font-style: italic;
+}
+
+/* Selecting address class */
+.Address{
+    /*Setting background color anf alignment and color */
+    background-color: #a88732;
+    text-align: center;
+    color : whitesmoke;
+    font-weight: 150;
+}
