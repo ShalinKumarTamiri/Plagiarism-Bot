@@ -58,9 +58,26 @@
     
     6.Submit : It will add the user and bot messages to the page and calculate the similarity when end user send the message.
     
- ## Block Diagram :
+ ## Design :
  
- ![Block Diagram](https://raw.githubusercontent.com/ShalinKumarTamiri/plagbot/main/Blockdiagram.jpg)
+ 1.Login design
+ 
+ ![Login](https://raw.githubusercontent.com/ShalinKumarTamiri/Plagiarism-Bot/main/login.jpg)
+ 
+ 2.Register design
+ 
+ ![Register](https://raw.githubusercontent.com/ShalinKumarTamiri/Plagiarism-Bot/main/register.jpg)
+ 
+ 
+ 3.Main page design
+ 
+ ![main](https://raw.githubusercontent.com/ShalinKumarTamiri/Plagiarism-Bot/main/main.jpg)
+ 
+ ![main](https://raw.githubusercontent.com/ShalinKumarTamiri/Plagiarism-Bot/main/main1.jpg)
+ 
+ 4.Chat design
+ 
+ ![chat](https://raw.githubusercontent.com/ShalinKumarTamiri/Plagiarism-Bot/main/chat.jpg)
  
  
  ## Demo video link :
