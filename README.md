@@ -65,5 +65,4 @@
  
  ## Demo video link :
     
-
-    https://youtu.be/hWwbeVJXG1M
+ [![](http://img.youtube.com/vi/WU7qDuJ6RcM/0.jpg)](http://www.youtube.com/watch?v=WU7qDuJ6RcM "")
